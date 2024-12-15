@@ -1,0 +1,38 @@
+# USE THE FOLLOWING IN YOUR PRINT AND INPUT STATEMENTS
+":~Would you like to play? (0=no, 1=yes) ~:"
+":~How many stones per pile would you like to play? ~:"
+"Start --> Pile 1:"
+"   Pile 2:"
+"\nStarting a new game..."
+"Pile must be 1 or 2 and non-empty. Please try again."
+"Invalid number of stones. Please try again."
+":~Choose a pile (1 or 2) ~:"
+":~Choose stones to remove from pile ~:"
+"Player -> ",end=''
+"Computer -> ",end=''
+"Pile 1:"
+"   Pile 2:"
+"\nComputer wins!"
+"\nCONGRATULATIONS! Player wins!"
+"You actually won! Did you cheat?"
+"Enjoy your bragging rights (for now). I am coming back stronger!"
+
+"\nThanks for playing! See you again soon!"
+"Score -> human:"
+"; computer:"
+"Remove"
+"stones from pile"
+
+
+BANNER = """*** Welcome to the Game of Nim! ***
+*Spoiler Alert: I am probably going to win...*
+"""
+
+RULES="""Nim is a deceptively simple two-player game where stones mysteriously disappear,
+one, two, or three at a time!
+The game kicks off with two piles of stones, cleverly named Pile 1 and Pile 2
+(because creativity matters!). Players take turns.
+On your turn, pick a pile and decide how many stones to make vanish: 1, 2, or 3.
+The goal? Be the one to remove the very last stone and victory!
+But hey, do not feel bad when you lose...I have had lots of practice!
+"""
